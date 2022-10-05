@@ -14,4 +14,11 @@ public class ComputerScienceStudent extends Student{
 
         return programingLanguages;
     }
+
+    @Override
+    public String toString() {
+        return "ComputerScienceStudent{" +
+                "programingLanguages='" + programingLanguages + '\'' +
+                "} " + super.toString();
+    }
 }

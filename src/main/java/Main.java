@@ -28,6 +28,9 @@ public class Main {
                 student3.getId(), student3
         ));
 
+        ComputerScienceStudent mykola = new ComputerScienceStudent(5, "Mykola", "Java" );
+        System.out.println(mykola);
+
 
         StudentDB studentdb = new StudentDB(students);
 
